@@ -81,7 +81,7 @@ char * mystrstr(char *s1, char *s2) {
                 break;
             }
         }
-        if(works && s1[i+j] == s2[j]) {
+        if(works && s2[j] == 0) {
             return s1+i;
         }
     }

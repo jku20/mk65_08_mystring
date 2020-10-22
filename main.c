@@ -60,6 +60,10 @@ int main() {
   printf("\t\t[standard]:\t[%d]\n", strcmp("abc", "abc") );
   printf("\t\t[mine]:\t\t[%d]\n", mystrcmp("abc", "abc") );
 
+  printf("\nTesting strstr(\"moodgorning\", \"od\")\n");
+  printf("[standard]:\t[%p]\n", strstr("moodgorning", "od"));
+  printf("[mine]:\t\t[%p]\n", mystrstr("moodgorning", "od"));
+
   return 0;
 }
   
